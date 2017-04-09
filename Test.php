@@ -13,7 +13,7 @@ class Test extends PHPUnit_Framework_TestCase
     
     $this->assertEquals(1+1,2);
   }
-
+/*
   public function testTwo(){
     $tester = new RandomFunctionsToTest();
     $name = "Josh";
@@ -23,5 +23,5 @@ class Test extends PHPUnit_Framework_TestCase
 
 
   }
-
+*/
 }

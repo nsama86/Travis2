@@ -18,7 +18,7 @@ class Test extends PHPUnit_Framework_TestCase
 
     $this->assertTrue(true);
   }
-/*
+
   public function testTwo(){
     $tester = new RandomFunctionsToTest();
     $name = "Josh";
@@ -28,5 +28,5 @@ class Test extends PHPUnit_Framework_TestCase
 
 
   }
-*/
+
 }

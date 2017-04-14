@@ -24,7 +24,7 @@ class Test extends PHPUnit_Framework_TestCase
     $name = "Josh";
     $tester->sayMyName($name);
 
-    $this->assertEquals("Expecting Josh as name plus additional string text", $tester, "This is my name: Josh");
+    $this->assertEquals("This is my name: Josh", $tester, "Expecting Josh as name plus additional string text");
 
 
   }

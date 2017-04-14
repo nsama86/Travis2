@@ -1,8 +1,15 @@
 {
-    "name": "phpunit/phpunit",
-    "description": "unit testing with phpunit",
-    "require": {
-        "phpunit/phpunit": "^5.7.0"
+    "require-dev": {
+        "phpunit/phpunit": "^5.5"
     },
-    "minimum-stability": "stable"
+    "autoload": {
+        "psr-4": {
+            "TDD\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TDD\\Test\\": "tests/"
+        }
+    }
 }

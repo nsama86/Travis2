@@ -1,0 +1,8 @@
+{
+    "name": "phpunit/phpunit",
+    "description": "unit testing with phpunit",
+    "require": {
+        "phpunit/phpunit": "^6.1"
+    },
+    "minimum-stability": "stable"
+}

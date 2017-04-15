@@ -6,6 +6,8 @@
  * Date: 4/9/2017
  * Time: 12:51 PM
  */
+
+namespace TDD;
 class RandomFunctionsToTest
 {
 

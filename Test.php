@@ -6,7 +6,14 @@
  * Date: 4/9/2017
  * Time: 12:02 PM
  */
-class Test extends PHPUnit_Framework_TestCase
+
+namespace TDD\Test;
+require dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR .'autoload.php';
+
+use PHPUnit\Framework\TestCase;
+use TDD\RandomFunctionsToTest;
+
+class Test extends RandomFunctionsToTest
 {
   
   public function testOne(){
